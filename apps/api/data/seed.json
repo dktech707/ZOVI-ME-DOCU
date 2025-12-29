@@ -1,0 +1,42 @@
+{
+  "categories": [
+    {
+      "id": "cat-cleaning",
+      "name": "Cleaning",
+      "isProhibited": false,
+      "requiresVerification": false,
+      "active": true
+    },
+    {
+      "id": "cat-moving",
+      "name": "Moving Help",
+      "isProhibited": false,
+      "requiresVerification": false,
+      "active": true
+    },
+    {
+      "id": "cat-handyman",
+      "name": "Handyman (Light Tasks)",
+      "isProhibited": false,
+      "requiresVerification": false,
+      "active": true
+    },
+    {
+      "id": "cat-electrical",
+      "name": "Electrical (Licensed Only)",
+      "isProhibited": false,
+      "requiresVerification": true,
+      "active": true
+    },
+    {
+      "id": "cat-illegal",
+      "name": "Illegal / Prohibited",
+      "isProhibited": true,
+      "requiresVerification": false,
+      "active": false
+    }
+  ],
+  "jobRequests": [],
+  "offers": [],
+  "bookings": []
+}

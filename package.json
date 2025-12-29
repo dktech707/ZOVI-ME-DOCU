@@ -1,0 +1,21 @@
+{
+  "name": "zovi-me-docu-skeleton",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n WEB,API -c auto \"npm run dev:web\" \"npm run dev:api\"",
+    "dev:web": "npm --workspace apps/web run dev",
+    "dev:api": "npm --workspace apps/api run dev",
+    "build": "npm -ws run build",
+    "lint": "npm -ws run lint",
+    "format": "prettier -w .",
+    "verify": "node scripts/verify.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0",
+    "prettier": "^3.3.3"
+  }
+}
